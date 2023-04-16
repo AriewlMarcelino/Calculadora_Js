@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-calculadora{
+    border: solid 1px gray;
+    background-color: black;
+    display: grid;
+    width: 500px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.input-value, .input-value1,.input-resultado{
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.input-display{
+    height: 100px;
+    width: 500px;
+    font-size: 24px;
+    border: solid 1px white;
+    margin-bottom: 5px;
+    background: black;
+}
+
+.teclado-calculadora{
+    background-color: #2e2e2e;
+    height: 520px;
+    padding: 20px;
+    display: grid;
+    justify-content: stretch;
+}
+
+.fileira-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.fileira-2, .fileira-3, .fileira-4{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.fileira-5{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ac, .barra,.sete, .oito, .nove, .multi,
+.quatro, .cinco, .seis, .subtracao,
+.um, .dois, .tres, .adicao,.zero, .igual{
+    height: 90px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background: #141414bf;
+    border: solid 1px #5e5e5e;
+}
+
+
+
+.zero, .igual{
+    height: 90px;
+    width: 222px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background: #141414bf;
+    border: solid 1px #5e5e5e;
+}
